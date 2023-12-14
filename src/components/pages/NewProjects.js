@@ -28,7 +28,7 @@ function NewProjects() {
 
                 navigate('/projetos', { message: 'Projeto criado com sucesso!' })
             })
-            .catch(err => console.log(err))
+            .catch((err) => console.log(err))
 
     }
 
