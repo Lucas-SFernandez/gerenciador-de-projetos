@@ -27,19 +27,19 @@ function App() {
 
       <Routes>
 
-        <Route exact path="/" element={<Home/>}>
+        <Route path="/" element={<Home/>}>
         </Route>
 
-        <Route exact path="/projetos" element={<Projetos/>}>
+        <Route path="/projetos" element={<Projetos/>}>
         </Route>
 
-        <Route exact path="/company" element={<Company/>}>
+        <Route path="/company" element={<Company/>}>
         </Route>
 
-        <Route exact path="/contact" element={<Contato/>}>
+        <Route path="/contact" element={<Contato/>}>
         </Route>
 
-        <Route exact path="/newprojects" element={<NewProjects/>}>
+        <Route path="/newprojects" element={<NewProjects/>}>
         </Route>
         
       </Routes>

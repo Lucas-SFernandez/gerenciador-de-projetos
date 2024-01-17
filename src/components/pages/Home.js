@@ -1,6 +1,7 @@
 import styles from './Home.module.css'
 
 import mony from "../../img/mony.png"
+
 import LinkBotao from '../layout/LinkBotao'
 
 function Home(){
@@ -13,7 +14,7 @@ function Home(){
         <p>Comece a gerenciar seus projetos agora mesmo!</p>
 
 
-        <LinkBotao to= "newprojects" text="Criar Ptojeto"/>
+        <LinkBotao to= "/newprojects" text="Criar Ptojeto"/>
 
         <img src={mony} className={styles.imagem}/>
 
