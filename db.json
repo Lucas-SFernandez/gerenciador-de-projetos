@@ -1,11 +1,11 @@
 {
   "projects": [
     {
-      "name": "Fernandez",
-      "budget": "100",
+      "name": "Lucas",
+      "budget": "3000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": [],
@@ -13,10 +13,10 @@
     },
     {
       "name": "Fernandez",
-      "budget": "1000",
+      "budget": "2000",
       "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "4",
+        "name": "Planejamento"
       },
       "cost": 0,
       "services": [],
